@@ -1,6 +1,7 @@
-data/
-*.csv
-*.tsv
-*.xlsx
-.ipynb_checkpoints/
-.DS_Store
+# Ignore everything in data/
+data/*
+
+# But keep these files
+!data/airbnb_price.csv
+!data/airbnb_room_type.xlsx
+!data/airbnb_last_review.tsv
